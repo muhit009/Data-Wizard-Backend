@@ -1,0 +1,15 @@
+PUT http://localhost:8080/api/users/7
+Content-Type: application/json
+
+{
+  "username": "updateuser",
+  "password": "userupdated123",
+  "email": "updateduser1@gmail.com",
+  "firstName": "Updated",
+  "lastName": "User",
+  "dateOfBirth": "1991-02-02",
+  "phoneNumber": "9876543210",
+  "address": "456 Updated Street, USA",
+  "role": "Employer",
+  "status": "active"
+}
